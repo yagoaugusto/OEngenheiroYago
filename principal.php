@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <?php require_once '__head.php'; ?>
+  <body>
+    <div class="container-scroller">
+      <!-- partial:partials/_horizontal-navbar.html -->
+      <?php require_once '__nav.php'; ?>
+      <!-- partial -->
+      <div class="container-fluid page-body-wrapper">
+        <div class="main-panel">
+          <div class="content-wrapper pb-0">
+            <div class="page-header flex-wrap">
+
+            </div>
+            <!-- first row starts here -->
+
+          </div>
+          <!-- content-wrapper ends -->
+          <?php require_once '__footer.php'; ?>
+          <!-- partial -->
+        </div>
+        <!-- main-panel ends -->
+      </div>
+      <!-- page-body-wrapper ends -->
+    </div>
+    <?php require_once '__js.php'; ?>
+  </body>
+</html>
