@@ -21,7 +21,7 @@ session_start();
             <div class="col-lg-6 d-flex align-items-center justify-content-center">
               <div class="auth-form-transparent text-left p-3">
                 <div class="brand-logo">
-                  <h3 class="text-danger">0XES!</h3>  
+                  <h3 class="text-danger">OEngenheiro!</h3>  
                   <?php if(isset($_SESSION['OxesLoginErro'])){ ?>
                   <div class="alert alert-danger" role="alert">Usuário ou senha inválida.</div>
                 <?php }else {} ?>
@@ -50,7 +50,7 @@ session_start();
               </div>
             </div>
             <div class="col-lg-6 login-half-bg d-flex flex-row">
-              <p class="text-white font-weight-semibold text-center flex-grow align-self-end">OXES! &copy; Todos os direitos reservados a Yago, Mayra e Rafael.</p>
+              <p class="text-white font-weight-semibold text-center flex-grow align-self-end">OEngenheiro! &copy; Todos os direitos reservados a Yago Augusto.</p>
             </div>
           </div>
         </div>
